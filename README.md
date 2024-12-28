@@ -1,1 +1,1 @@
-I just post fun and learning project that i do. Feel free to look at my projects and comment.
+I post fun and learning projects that I do. Right now I am focused on Neural Networks. Please feel free to take a look at my projects and comment.
