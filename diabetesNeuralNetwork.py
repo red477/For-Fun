@@ -8,6 +8,11 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.callbacks import EarlyStopping
 
 url = "https://raw.githubusercontent.com/npradaschnor/Pima-Indians-Diabetes-Dataset/refs/heads/master/diabetes.csv"
+
+# Pima Indians Diabetes Dataset:
+# Pradaschnor, N. (n.d.). Pima Indians Diabetes Dataset.
+# Retrieved from https://raw.githubusercontent.com/npradaschnor/Pima-Indians-Diabetes-Dataset/refs/heads/master/diabetes.csv
+
 data = pd.read_csv(url) #just read it - already has labels
 
 #split data into features and target
