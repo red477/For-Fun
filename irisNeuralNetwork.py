@@ -8,6 +8,11 @@ from tensorflow.keras.utils import to_categorical #Converts numeric labels (like
 
 #load dataset
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+# Iris Dataset:
+# Dua, D., & Graff, C. (2019). UCI Machine Learning Repository: Iris Dataset.
+# University of California, Irvine, School of Information and Computer Sciences.
+# Retrieved from https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+
 columns = ["sepalLength", "sepalWidth" , "petalLength", "petalWidth", "species"] #corresponding to the data set
 data = pd.read_csv(url, header=None, names = columns) #loads a CSV (Comma-Separated Values) file into a pandas DataFrame (a table-like structure in Python).
 
